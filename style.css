@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.intro {
+  padding: 30px;
+  background: #fff;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.subjects button {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  transition: 0.3s;
+}
+
+.subjects button:hover {
+  background: #45a049;
+}
+
+.quiz-container {
+  margin: 30px auto;
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.question {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.options {
+  margin-left: 20px;
+}
